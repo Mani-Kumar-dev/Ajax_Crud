@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner{
+    background: linear-gradient(90deg, rgba(0,0,0,0.7708333333333334) 100%, rgba(0,0,0,0.7232142857142857) 100%),url('../images/ban.jpg'),no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.add_btn {
+    text-align: end;
+}
+.modal-content {
+    background:#6c757d;
+    color: #ffffffde;
+    padding: 30px;
+}

@@ -1,0 +1,51 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=h1, initial-scale=1.0">
+    {% block title%}
+    <title>Base</title>
+    {% endblock title %}
+    <link rel="stylesheet" href="{% static 'assets/css/bootstrap.min.css'%}">
+    <link rel="stylesheet" href="{% static 'assets/css/style.css'%}">
+
+<script>
+    
+</script>
+</head>
+<body>
+    <section class="banner">
+       <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center text-white mt-5">
+                <div class="heading">
+                    <h1>
+                        EMPLOYEE MANAGEMENT
+                    </h1>
+                </div>
+            </div>
+        </div>
+         {% block content %}
+   
+        {% endblock content %}
+       </div>
+    </section>
+
+
+<script src="{% static 'assets/js/bootstrap.min.js' %}"></script>
+<script src="{% static 'assets/js/popper.min.js' %}"></script>
+<script src="{% static 'assets/js/script.js' %}"></script>
+<script src="{% static 'assets/js/jquery.min.js' %}"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
+
+<script>
+    $("#edit").click(function(){
+    console.log("hello")
+});
+
+</script>
+</body>
+</html>
