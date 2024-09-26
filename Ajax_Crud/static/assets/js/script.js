@@ -76,7 +76,7 @@ function createEmployee() {
 // Move this function outside to the global scope
 function loadEmployeeList() {
   $.ajax({
-    url: "/List/", // Adjust the URL to match your Django view's URL
+    url: "/", // Adjust the URL to match your Django view's URL
     method: "GET",
     headers: {
       "X-Requested-With": "XMLHttpRequest", // Indicate it's an AJAX request

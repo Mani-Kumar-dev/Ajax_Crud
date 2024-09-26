@@ -400,7 +400,7 @@
         "kind": 5,
         "importPath": "Ajax_Crud.Emp_management.urls",
         "description": "Ajax_Crud.Emp_management.urls",
-        "peekOfCode": "urlpatterns = [\n    path(\"List/\",views.Employee_List,name=\"Employee_List\"),\n    path(\"create/\",views.createEmployee,name=\"createEmployee\"),\n    path('delete_employee_url/<int:employee_id>/', views.deleteEmployee, name='delete_employee'),\n    # path('getEmployee/<int:employee_id>/', views.getEmployee, name='get_employee'),\n   path('edit-employee/<int:employee_id>/', views.editEmployee, name='edit_employee'),\n]",
+        "peekOfCode": "urlpatterns = [\n    path(\"\",views.Employee_List,name=\"Employee_List\"),\n    path(\"create/\",views.createEmployee,name=\"createEmployee\"),\n    path('delete_employee_url/<int:employee_id>/', views.deleteEmployee, name='delete_employee'),\n    path('edit-employee/<int:employee_id>/', views.editEmployee, name='edit_employee'),\n]",
         "detail": "Ajax_Crud.Emp_management.urls",
         "documentation": {}
     },
